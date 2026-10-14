@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>DEY · Web Ucapan Interaktif untuk Ulang Tahun, Hari Jadi, Sidang & Wisuda</title>
+
+<!-- ===== META DASAR / SEO ===== -->
+<!-- GANTI https://USERNAME.github.io/REPO/ dengan alamat GitHub Pages kamu (di 6 tempat: canonical, og:url, og:image, twitter:image, JSON-LD) -->
+<meta name="description" content="DEY membuat web ucapan interaktif untuk ulang tahun, hari jadi, sempro, sidang, dan wisuda. Ada kue tiup lilin, kartu gosok, surat amplop, dan musik. Mulai Rp30rb, satu link tinggal kirim.">
+<meta name="keywords" content="web ucapan, web ulang tahun, kado digital, web hari jadi, ucapan wisuda, ucapan sidang, jasa web ucapan, kejutan ulang tahun, DEY">
+<meta name="author" content="DEY">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="googlebot" content="index,follow">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://USERNAME.github.io/REPO/">
+
+<!-- ===== TAMPILAN PERANGKAT ===== -->
+<meta name="theme-color" content="#FAF8FF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#FAF8FF" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="DEY">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<!-- ===== OPEN GRAPH (WhatsApp, Instagram, Facebook, Telegram) ===== -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DEY">
+<meta property="og:locale" content="id_ID">
+<meta property="og:url" content="https://USERNAME.github.io/REPO/">
+<meta property="og:title" content="DEY · Web Ucapan Interaktif">
+<meta property="og:description" content="Ucapan yang bisa dibuka, digosok, dan ditiup. Ulang tahun, hari jadi, sempro, sidang, wisuda. Satu link, tinggal kirim.">
+<meta property="og:image" content="https://USERNAME.github.io/REPO/assets/og-cover.jpg">
+<meta property="og:image:secure_url" content="https://USERNAME.github.io/REPO/assets/og-cover.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Contoh web ucapan interaktif buatan DEY">
+
+<!-- ===== TWITTER / X ===== -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DEY · Web Ucapan Interaktif">
+<meta name="twitter:description" content="Ucapan yang bisa dibuka, digosok, dan ditiup. Mulai Rp30rb, satu link tinggal kirim.">
+<meta name="twitter:image" content="https://USERNAME.github.io/REPO/assets/og-cover.jpg">
+<meta name="twitter:image:alt" content="Contoh web ucapan interaktif buatan DEY">
+
+<!-- ===== IKON (upload ke folder assets/ di GitHub) ===== -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230B0A0F'/%3E%3Ctext x='50' y='67' font-family='Georgia,serif' font-weight='700' font-size='50' text-anchor='middle' fill='%23D9B44A'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+<!-- ===== DATA TERSTRUKTUR (Google) ===== -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"DEY · Web Ucapan Interaktif",
+  "description":"Jasa pembuatan web ucapan interaktif untuk ulang tahun, hari jadi, sempro, sidang, dan wisuda.",
+  "url":"https://USERNAME.github.io/REPO/",
+  "image":"https://USERNAME.github.io/REPO/assets/og-cover.jpg",
+  "sameAs":["https://www.instagram.com/_dey_web"],
+  "areaServed":"ID",
+  "priceRange":"Rp30.000 - Rp150.000",
+  "knowsLanguage":"id"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+:root{--bg:#FAF8FF;--soft:#F1EDFC;--line:#E6E0F5;--ink:#1D1538;--mut:#6E6889;--pr:#6A46DC;--pr-d:#5333BF;--pr-l:#DCD2FA;--blk:#0B0A0F;--gold:linear-gradient(135deg,#F6E3A1,#D9B44A 40%,#B88A2A 75%,#8F6A1E);--g:#E6C463;--sf:'Fraunces',Georgia,serif;--ez:cubic-bezier(.2,.7,.2,1)}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased;padding-bottom:calc(110px + env(safe-area-inset-bottom,0px));animation:fade .6s both}
+@keyframes fade{from{opacity:0}}
+@keyframes up{from{opacity:0;transform:translateY(20px)}}
+a{color:inherit}
+:focus-visible{outline:2.5px solid var(--pr);outline-offset:3px;border-radius:8px}
+.skip{position:absolute;left:12px;top:-60px;z-index:200;background:var(--blk);color:#fff;padding:10px 16px;border-radius:10px;font-weight:600;font-size:.85rem;text-decoration:none;transition:top .25s}
+.skip:focus{top:10px}
+svg.i{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+section{padding-top:84px}
+.sh{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;padding-top:22px;border-top:1px solid var(--line);margin-bottom:30px}
+.no{font-family:var(--sf);color:var(--pr);padding-top:.55rem}
+h1,h2,h3{font-family:var(--sf);font-weight:600;letter-spacing:-.015em;line-height:1.12}
+h2{font-size:clamp(1.8rem,5vw,2.4rem)}
+.lead{color:var(--mut);max-width:520px;margin-top:6px}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .75s var(--ez),transform .75s var(--ez)}
+.rv.in{opacity:1;transform:none}
+nav{position:sticky;top:0;z-index:50;background:rgba(250,248,255,.85);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0);transition:box-shadow .3s}
+nav.sc{box-shadow:0 8px 24px -16px rgba(29,21,56,.35)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:var(--sf);font-weight:600;font-size:1.45rem;letter-spacing:.06em;text-decoration:none}
+.logo::after{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:#D9B44A;margin-left:4px}
+.links{display:flex;gap:26px;font-size:.88rem;font-weight:500;color:var(--mut)}
+.links a{text-decoration:none;transition:color .2s}.links a:hover,.links a.act{color:var(--pr)}
+@media(max-width:700px){.links{display:none}}
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 24px;border:1.5px solid var(--pr);border-radius:999px;font:700 .95rem 'Plus Jakarta Sans',sans-serif;cursor:pointer;text-decoration:none;color:#fff;background:var(--pr);box-shadow:0 10px 24px -10px rgba(106,70,220,.6);transition:transform .2s var(--ez),box-shadow .25s,background .25s,color .25s,filter .25s}
+.btn:hover{background:var(--pr-d);border-color:var(--pr-d);transform:translateY(-2px);box-shadow:0 14px 28px -10px rgba(106,70,220,.7)}
+.btn:active{transform:scale(.96);box-shadow:none}
+.btn.hl{background:var(--soft);color:var(--pr-d);border:1.5px solid var(--pr);box-shadow:0 8px 20px -12px rgba(106,70,220,.55)}
+.btn.hl:hover{background:var(--pr);color:#fff}
+.btn.sm{padding:9px 16px;font-size:.82rem}
+.wide{display:flex;width:100%;max-width:420px;margin-left:auto;margin-right:auto}
+.glow::after{content:'';position:absolute;top:0;left:-70%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-20deg);animation:shine 3.4s infinite;pointer-events:none}
+@keyframes shine{0%,55%{left:-70%}100%{left:140%}}
+.rp{position:absolute;border-radius:50%;background:rgba(255,255,255,.45);transform:scale(0);animation:rp .65s ease-out forwards;pointer-events:none}
+.hl .rp,.tab .rp,.ad .rp{background:rgba(106,70,220,.22)}
+@keyframes rp{to{transform:scale(1);opacity:0}}
+.hero{display:grid;gap:44px;align-items:center;padding:60px 0 0}
+@media(min-width:860px){.hero{grid-template-columns:1.2fr .8fr}}
+.hero>div:first-child>*{animation:up .8s var(--ez) both}
+.live{font-size:.82rem;font-weight:600;color:var(--mut);display:flex;align-items:center;gap:8px}
+.live::before{content:'';width:8px;height:8px;border-radius:50%;background:#1FA971;box-shadow:0 0 0 0 rgba(31,169,113,.5);animation:ping 2s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 8px rgba(31,169,113,0)}100%{box-shadow:0 0 0 0 rgba(31,169,113,0)}}
+.hero h1{font-size:clamp(2.3rem,7vw,3.8rem);margin:16px 0 18px}
+.u{background:linear-gradient(transparent 64%,var(--pr-l) 64%) no-repeat;background-size:0 100%;animation:mark 1s .8s var(--ez) forwards}
+@keyframes mark{to{background-size:100% 100%}}
+.hero p{max-width:470px;color:var(--mut);margin-bottom:26px}
+.row{display:flex;flex-direction:column;gap:12px;max-width:420px;margin:0 auto}
+.row .btn{width:100%}
+.facts{display:flex;gap:28px;margin-top:38px;padding-top:20px;border-top:1px solid var(--line);flex-wrap:wrap}
+.facts b{display:block;font-family:var(--sf);font-size:1.15rem}.facts span{font-size:.78rem;color:var(--mut)}
+.ph{justify-self:center;width:228px;aspect-ratio:9/18.4;border-radius:36px;background:#fff;border:7px solid var(--ink);box-shadow:0 34px 60px -26px rgba(29,21,56,.4);padding:30px 16px 16px;display:flex;flex-direction:column;gap:10px;transform:rotate(-2.5deg);animation:phin 1s .3s var(--ez) both,flt 6s 1.3s infinite ease-in-out}
+@keyframes phin{from{opacity:0;transform:translateY(34px) rotate(4deg)}}
+@keyframes flt{50%{transform:translateY(-9px) rotate(-2.5deg)}}
+.ph small{color:var(--mut);font-size:.7rem}.ph h3{font-size:1.3rem}.ph p{font-size:.72rem;margin:0;color:var(--mut)}
+.env{display:grid;place-items:center;flex:1;background:var(--soft);border-radius:14px;color:var(--pr)}.env svg{width:46px;height:46px;stroke-width:1.5;animation:bob 2.4s infinite ease-in-out}
+@keyframes bob{50%{transform:translateY(-5px)}}
+.scr{height:52px;border-radius:10px;display:grid;place-items:center;font-size:.72rem;font-weight:600;color:#7d7699;background:repeating-linear-gradient(135deg,#dcd7ec 0 6px,#d2cce6 6px 12px)}
+.mus{display:flex;align-items:flex-end;gap:3px;font-size:.68rem;color:var(--mut)}.mus i{width:3px;background:var(--pr);border-radius:2px;animation:bar 1s infinite ease-in-out}
+.mus i:nth-child(1){height:8px}.mus i:nth-child(2){height:14px;animation-delay:.2s}.mus i:nth-child(3){height:10px;animation-delay:.4s}.mus span{margin-left:6px}
+@keyframes bar{50%{transform:scaleY(.4)}}
+/* contoh hasil */
+.pf{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 20px;margin:0 -20px;scrollbar-width:none}
+.pf::-webkit-scrollbar{display:none}
+.pf figure{flex:none;width:180px;scroll-snap-align:start;cursor:zoom-in;animation:up .6s var(--ez) both}
+.pf .fr{aspect-ratio:9/19;border-radius:22px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(110deg,var(--soft) 30%,#fff 50%,var(--soft) 70%) 0 0/200% 100%;animation:sk 1.4s infinite linear;transition:transform .35s var(--ez),box-shadow .35s}
+.pf .fr.ok{animation:none;background:var(--soft)}
+@keyframes sk{to{background-position:-200% 0}}
+.pf figure:hover .fr{transform:translateY(-6px);box-shadow:0 20px 34px -18px rgba(50,25,120,.45)}
+.pf figure:active .fr{transform:scale(.97)}
+.pf img{width:100%;height:100%;object-fit:cover;display:block}
+.pf figcaption{font-size:.8rem;color:var(--mut);margin-top:8px;font-weight:600}
+.empty{border:1.5px dashed var(--pr-l);border-radius:16px;padding:30px 18px;color:var(--mut);font-size:.9rem;background:var(--soft);margin-bottom:16px}
+.center{margin-top:8px}
+/* lightbox */
+#lb{position:fixed;inset:0;z-index:120;background:rgba(14,8,30,.92);display:grid;place-items:center;padding:20px;animation:fade .3s}
+#lb figure{display:flex;flex-direction:column;align-items:center;gap:12px;max-width:100%}
+#lb img{max-width:100%;max-height:80vh;border-radius:18px;animation:pop .45s var(--ez);user-select:none;-webkit-user-drag:none}
+#lb figcaption{color:#F4EEDB;font-size:.88rem;font-weight:600}
+#lb .nv{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:1px solid rgba(214,175,55,.45);background:rgba(11,10,15,.6);color:#F4EEDB;cursor:pointer;display:grid;place-items:center;transition:background .2s,transform .2s var(--ez)}
+#lb .nv:hover{background:rgba(214,175,55,.2)}#lb .nv:active{transform:translateY(-50%) scale(.92)}
+#lb .pv{left:12px}#lb .nx{right:12px}#lb .cl{top:14px;right:14px;transform:none}#lb .cl:active{transform:scale(.92)}
+#lb .pv svg{transform:rotate(180deg)}
+@keyframes pop{from{opacity:0;transform:scale(.9)}}
+/* tab & kartu */
+.tabs{display:flex;gap:24px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line);margin-bottom:18px}
+.tabs::-webkit-scrollbar{display:none}
+.tab{position:relative;overflow:hidden;flex:none;padding:10px 0;background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;font:600 .92rem 'Plus Jakarta Sans',sans-serif;color:var(--mut);cursor:pointer;transition:color .25s,border-color .3s}
+.tab:hover{color:var(--ink)}.tab.on{color:var(--ink);border-bottom-color:var(--pr)}.tab:active{transform:scale(.96)}
+.cdesc{color:var(--mut);margin-bottom:34px;max-width:560px;min-height:3.3em}
+.cdesc.fx{animation:up .5s var(--ez)}
+.grid{display:grid;gap:18px}
+@media(min-width:800px){.grid{grid-template-columns:repeat(3,1fr);gap:20px}}
+.card{position:relative;background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px 22px 22px;display:flex;flex-direction:column;transition:border-color .3s,box-shadow .35s,transform .4s var(--ez)}
+.card:hover{border-color:#cfc6ec}
+.card.on{border-color:var(--pr);box-shadow:0 0 0 1px var(--pr),0 22px 40px -22px rgba(106,70,220,.55);transform:translateY(-5px)}
+.badge{position:absolute;top:-11px;left:22px;display:inline-flex;align-items:center;gap:6px;background:var(--pr);color:#fff;font-size:.68rem;font-weight:700;letter-spacing:.06em;padding:4px 12px;border-radius:999px}
+.badge svg{width:13px;height:13px}
+.card h3{font-size:1.25rem}.tag{font-size:.82rem;color:var(--mut)}
+.price{font-family:var(--sf);font-size:2.2rem;font-weight:600;margin:16px 0 0;line-height:1.1}
+.price small{display:block;font:500 .78rem 'Plus Jakarta Sans',sans-serif;color:var(--mut);margin-top:3px}
+.card ul{list-style:none;margin:18px 0 22px;font-size:.88rem;flex:1}
+.card li{padding:8px 0 8px 28px;position:relative;border-top:1px solid var(--line)}
+.card li::before{content:'';position:absolute;left:2px;top:13px;width:15px;height:15px;border-radius:50%;background:var(--pr) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.4l2.5 2.4L12 5.4' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/100% no-repeat}
+.card li.no{color:#a9a3c2;text-decoration:line-through}.card li.no::before{background:var(--line)}
+.card .btn{width:100%}
+.card.dark{color:#F4EEDB;border:1.5px solid transparent;background:radial-gradient(120% 70% at 50% -10%,rgba(214,175,55,.2),transparent 60%) padding-box,linear-gradient(180deg,#14121A,#0B0A0F) padding-box,var(--gold) border-box;box-shadow:0 18px 44px rgba(11,10,15,.32)}
+.card.dark.on{box-shadow:0 0 0 2px rgba(214,175,55,.6),0 26px 50px -18px rgba(214,175,55,.4)}
+.dark .badge{background:var(--gold);color:#1A1204}
+.dark h3,.dark .price{color:var(--g)}
+.dark .tag,.dark .price small{color:#B9AE8A}
+.dark li{border-top-color:rgba(214,175,55,.16);color:#E9E1C8}
+.dark li::before{background-color:transparent;background-image:var(--gold),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.4l2.5 2.4L12 5.4' fill='none' stroke='%230B0A0F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-size:100% 100%;background-repeat:no-repeat}
+.dark .btn,.cta .btn,#ob #ord,.gres .btn:not(.hl){background:var(--gold);color:#1A1204;border-color:transparent;box-shadow:0 10px 24px -10px rgba(214,175,55,.55)}
+.dark .btn:hover,.cta .btn:hover,#ob #ord:hover{filter:brightness(1.08);background:var(--gold)}
+.dark .rp,.cta .rp,#ob .rp{background:rgba(255,255,255,.55)}
+.note{font-size:.82rem;color:var(--mut);margin-top:22px}
+/* tambahan */
+.addons{display:grid;gap:12px}
+@media(min-width:640px){.addons{grid-template-columns:1fr 1fr}}
+.ad{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;text-align:left;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;cursor:pointer;font-family:inherit;color:inherit;transition:border-color .25s,background .3s,transform .2s var(--ez);width:100%}
+.ad:hover{border-color:#cfc6ec}.ad.on{border-color:var(--pr);background:var(--soft)}.ad:active{transform:scale(.97)}
+.ck{flex:none;width:22px;height:22px;border-radius:7px;border:1.5px solid var(--line);display:grid;place-items:center;color:#fff;background:#fff;transition:background .25s,border-color .25s,transform .35s var(--ez)}
+.ck svg{width:13px;height:13px;stroke-width:3;opacity:0;transform:scale(.4);transition:opacity .25s,transform .35s var(--ez)}
+.ad.on .ck{background:var(--pr);border-color:var(--pr);transform:scale(1.12)}.ad.on .ck svg{opacity:1;transform:none}
+.ad span{flex:1;font-weight:600;font-size:.92rem}.ad small{display:block;font-weight:400;color:var(--mut);font-size:.78rem}
+.ad b{font-size:.88rem;white-space:nowrap;color:var(--pr-d)}
+/* langkah & faq */
+.steps{display:grid;column-gap:48px;counter-reset:s}
+@media(min-width:760px){.steps{grid-template-columns:1fr 1fr}}
+.st{display:grid;grid-template-columns:44px 1fr;padding:20px 0;border-bottom:1px solid var(--line);counter-increment:s}
+.st::before{content:counter(s);font-family:var(--sf);font-size:1.7rem;color:var(--pr);grid-row:span 2;line-height:1.1}
+.st b{display:block}.st small{color:var(--mut);font-size:.88rem}
+.faq{max-width:760px}
+.q{border-bottom:1px solid var(--line)}
+.qb{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 0;background:none;border:0;font:600 1rem 'Plus Jakarta Sans',sans-serif;text-align:left;cursor:pointer;color:var(--ink)}
+.qb i{position:relative;flex:none;width:14px;height:14px;transition:transform .4s var(--ez)}
+.qb i::before,.qb i::after{content:'';position:absolute;left:0;top:6px;width:14px;height:2px;border-radius:2px;background:var(--pr)}
+.qb i::after{transform:rotate(90deg)}
+.q.open .qb i{transform:rotate(135deg)}
+.qa{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s var(--ez)}
+.qa>div{overflow:hidden}.qa p{padding-bottom:18px;color:var(--mut);font-size:.92rem;opacity:0;transform:translateY(-6px);transition:opacity .4s,transform .4s var(--ez)}
+.q.open .qa{grid-template-rows:1fr}.q.open .qa p{opacity:1;transform:none;transition-delay:.1s}
+.cta{margin-top:84px;border-radius:24px;padding:42px 24px;text-align:center;color:#F4EEDB;background:var(--blk);box-shadow:inset 0 0 0 1px rgba(214,175,55,.35)}
+.cta h2{color:var(--g);font-size:1.9rem}.cta p{color:#B9AE8A;margin:6px auto 24px;max-width:380px}
+footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:var(--mut);font-size:.82rem;padding:36px 0 0}
+footer a{color:var(--ink);font-weight:600}
+/* order bar & toast */
+#ob{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));transform:translate(-50%,160%);width:min(580px,calc(100% - 24px));z-index:80;background:rgba(11,10,15,.96);color:#fff;border-radius:22px;padding:12px 12px 12px 20px;display:flex;align-items:center;gap:10px;box-shadow:0 20px 50px rgba(11,10,15,.45),inset 0 0 0 1px rgba(214,175,55,.3);transition:transform .55s cubic-bezier(.2,.9,.3,1.15)}
+#ob.show{transform:translate(-50%,0)}
+#ob .tx{flex:1;min-width:0}
+#ob small{display:block;color:#B9AE8A;font-size:.74rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#ob b{font-family:var(--sf);font-size:1.15rem;color:var(--g)}
+#ob .btn{padding:11px 18px;font-size:.85rem;white-space:nowrap}
+#ob .cp{background:transparent;color:#F4EEDB;border:1.5px solid rgba(214,175,55,.35);box-shadow:none}
+#ob .cp:hover{background:rgba(214,175,55,.12)}
+#toast{position:fixed;left:50%;top:calc(76px + env(safe-area-inset-top,0px));transform:translate(-50%,-30px);opacity:0;z-index:150;background:var(--blk);color:#fff;font-weight:600;font-size:.85rem;padding:12px 18px;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(214,175,55,.3);transition:.4s var(--ez);pointer-events:none;max-width:92%;display:flex;align-items:center;gap:10px}
+#toast svg{color:#F1D98A;width:18px;height:18px}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+/* game */
+#game{position:fixed;inset:0;z-index:140;background:rgba(10,6,22,.8);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:grid;place-items:center;padding:16px;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
+#game.show{opacity:1;visibility:visible}
+.gbox{position:relative;width:min(100%,400px);background:var(--blk);border-radius:22px;padding:16px;box-shadow:0 30px 80px rgba(0,0,0,.55),inset 0 0 0 1px rgba(214,175,55,.35);color:#F4EEDB;transform:translateY(30px) scale(.92);transition:transform .55s cubic-bezier(.2,.9,.3,1.2)}
+#game.show .gbox{transform:none}
+.ghead{display:flex;justify-content:space-between;gap:12px;margin-bottom:12px}
+.ghead h3{color:var(--g);font-size:1.25rem}.ghead p{font-size:.78rem;color:#B9AE8A;margin-top:3px}
+.gx{flex:none;width:34px;height:34px;border-radius:50%;border:1px solid rgba(214,175,55,.4);background:none;color:#F4EEDB;cursor:pointer;display:grid;place-items:center;transition:transform .3s var(--ez),background .2s}
+.gx:hover{background:rgba(214,175,55,.15);transform:rotate(90deg)}
+#gc{display:block;width:min(100%,calc(60vh*380/520));aspect-ratio:380/520;margin:0 auto;border-radius:14px;touch-action:none;cursor:crosshair}
+.gfoot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;font-size:.78rem;color:#B9AE8A}
+.gfoot a{color:#F4EEDB;font-weight:600}
+.gres{position:absolute;inset:0;border-radius:22px;background:rgba(11,10,15,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px;gap:12px;opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s}
+.gres.show{opacity:1;visibility:visible}
+.gres>*{transform:translateY(16px);opacity:0;transition:transform .5s var(--ez),opacity .5s}
+.gres.show>*{transform:none;opacity:1}.gres.show>*:nth-child(2){transition-delay:.08s}.gres.show>*:nth-child(3){transition-delay:.16s}.gres.show>*:nth-child(4){transition-delay:.24s}
+.gres h3{color:var(--g);font-size:1.9rem}.gres p{color:#B9AE8A;font-size:.9rem;max-width:280px}
+.gres .btn{width:100%;max-width:260px}
+.gres .btn.hl{background:none;color:#F4EEDB;border:1.5px solid rgba(214,175,55,.4);box-shadow:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#top">Lompat ke konten</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="3"/><path d="M5 15V7a3 3 0 0 1 3-3h8"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".7" fill="currentColor"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.5 8 5.5 8-5.5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+<symbol id="i-next" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+<symbol id="i-crown" viewBox="0 0 24 24"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 10H5z"/><path d="M5 21h14"/></symbol>
+</defs></svg>
+
+<nav id="nav" aria-label="Navigasi utama"><div class="wrap"><a class="logo" href="#top" id="brand" aria-label="DEY, ke atas"></a>
+<div class="links"><a href="#hasil">Contoh</a><a href="#harga">Harga</a><a href="#addon">Tambahan</a><a href="#faq">Tanya jawab</a></div>
+<a class="btn sm ig-open" href="https://www.instagram.com/_dey_web"><svg class="i"><use href="#i-ig"/></svg>Instagram</a></div></nav>
+
+<main class="wrap" id="top">
+<div class="hero">
+  <div>
+    <div class="live" style="animation-delay:0s">Menerima pesanan</div>
+    <h1 style="animation-delay:.1s">Ucapan yang bisa <span class="u">dibuka, digosok, dan ditiup.</span></h1>
+    <p style="animation-delay:.2s">Aku bikin web ucapan interaktif untuk ulang tahun, hari jadi, sempro, sidang, dan wisuda. Cukup satu link, tinggal kirim ke orangnya.</p>
+    <div class="row" style="animation-delay:.3s"><a class="btn glow" href="#harga">Lihat paket</a><a class="btn hl" href="#hasil">Lihat contoh</a></div>
+    <div class="facts" style="animation-delay:.4s"><div><b>Mulai Rp30rb</b><span>harga paket</span></div><div><b>1 sampai 3 hari</b><span>lama pengerjaan</span></div><div><b>Dikerjakan sendiri</b><span>satu orang, satu per satu</span></div></div>
+  </div>
+  <div class="ph" aria-hidden="true"><small>Untuk (Nama)</small><h3>Selamat ulang tahun.</h3><p>Ada surat kecil di dalam amplop ini.</p><div class="env"><svg class="i"><use href="#i-mail"/></svg></div><div class="scr">Gosok di sini</div><div class="mus"><i></i><i></i><i></i><span>Lagu favoritmu</span></div></div>
+</div>
+
+<section id="hasil">
+  <div class="sh"><span class="no">01</span><div><h2>Contoh hasil</h2><p class="lead">Beberapa tampilan dari pesanan sebelumnya. Ketuk gambar untuk memperbesar.</p></div></div>
+  <div class="pf" id="pf" role="list"></div>
+  <div class="center"><a class="btn hl wide" id="demoBtn" target="_blank" rel="noopener" href="#">Coba contoh langsung <svg class="i"><use href="#i-arrow"/></svg></a></div>
+</section>
+
+<section id="harga">
+  <div class="sh"><span class="no">02</span><div><h2>Pilih paket</h2><p class="lead">Pilih jenis ucapan, lalu paketnya. Ringkasan pesananmu muncul di bawah layar.</p></div></div>
+  <div class="tabs" id="tabs" role="tablist" aria-label="Jenis ucapan"></div>
+  <p class="cdesc" id="cdesc" aria-live="polite"></p>
+  <div class="grid" id="grid"></div>
+  <p class="note">Foto dan lagu disiapkan oleh pemesan. Link di-hosting di GitHub Pages.</p>
+</section>
+
+<section id="addon">
+  <div class="sh"><span class="no">03</span><div><h2>Tambahan</h2><p class="lead">Opsional. Ketuk untuk menambahkan ke pesananmu.</p></div></div>
+  <div class="addons" id="addons"></div>
+</section>
+
+<section id="cara">
+  <div class="sh"><span class="no">04</span><div><h2>Cara pesan</h2><p class="lead">Semuanya lewat DM Instagram.</p></div></div>
+  <div class="steps">
+    <div class="st"><b>Pilih paket</b><small>Tentukan jenis ucapan, paket, dan tambahan di halaman ini.</small></div>
+    <div class="st"><b>Kirim lewat DM</b><small>Tekan tombol pesan. Teks pesananmu otomatis tersalin, tinggal ditempel.</small></div>
+    <div class="st"><b>Kirim bahannya</b><small>Foto, isi ucapan, nama, tanggal, dan lagu yang kamu mau.</small></div>
+    <div class="st"><b>Cek hasilnya</b><small>Lihat preview, minta revisi kalau perlu, lalu link dikirim.</small></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="sh"><span class="no">05</span><div><h2>Tanya jawab</h2></div></div>
+  <div class="faq">
+    <div class="q"><button class="qb" aria-expanded="false">Berapa lama pengerjaannya?<i></i></button><div class="qa"><div><p>Basic 1 hari, Plus 1 sampai 2 hari, Premium 2 sampai 3 hari, dihitung sejak bahan lengkap. Karena dikerjakan sendiri, kadang ada antrean. Kalau acaramu sudah dekat, kabari lewat DM dulu.</p></div></div></div>
+    <div class="q"><button class="qb" aria-expanded="false">Bisa dibuka di HP?<i></i></button><div class="qa"><div><p>Bisa. Halamannya dibuat untuk HP dan langsung jalan di browser, tanpa install aplikasi.</p></div></div></div>
+    <div class="q"><button class="qb" aria-expanded="false">Boleh request tema atau fitur sendiri?<i></i></button><div class="qa"><div><p>Boleh. Paket Premium menerima request desain dan fitur selama masih bisa aku kerjakan. Untuk ide yang lebih besar, pilih kategori Custom.</p></div></div></div>
+    <div class="q"><button class="qb" aria-expanded="false">Link-nya aktif sampai kapan?<i></i></button><div class="qa"><div><p>Selama repository di GitHub Pages tidak dihapus.</p></div></div></div>
+    <div class="q"><button class="qb" aria-expanded="false">Pembayarannya bagaimana?<i></i></button><div class="qa"><div><p>DP 50% di awal, pelunasan setelah preview kamu setujui. Detail pembayaran dikirim lewat DM.</p></div></div></div>
+  </div>
+</section>
+
+<div class="cta rv"><h2>Mau bikin kejutan?</h2><p>Pilih paketnya, lalu kirim pesanan lewat Instagram.</p><a class="btn glow wide" href="#harga">Pilih paket</a></div>
+</main>
+<footer class="wrap"><span>© <span id="yr"></span> <b id="brand2"></b> · Web ucapan interaktif</span><a class="ig-open" href="https://www.instagram.com/_dey_web">Instagram</a></footer>
+
+<div id="ob" role="region" aria-label="Ringkasan pesanan"><div class="tx"><small id="obs"></small><b id="obt"></b></div><button class="btn cp" id="cpy" aria-label="Salin teks pesanan"><svg class="i"><use href="#i-copy"/></svg>Salin</button><button class="btn glow" id="ord"><svg class="i"><use href="#i-ig"/></svg>Pesan via Instagram</button></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<div id="game" aria-hidden="true" role="dialog" aria-label="Game memanah"><div class="gbox">
+  <div class="ghead"><div><h3>Panah dulu, baru DM</h3><p id="gsub"></p></div><button class="gx" id="gclose" aria-label="Tutup"><svg class="i"><use href="#i-x"/></svg></button></div>
+  <canvas id="gc"></canvas>
+  <div class="gfoot"><span id="ghint">Panah: 0</span><a id="gskip" target="_blank" rel="noopener" href="#">Lewati, buka Instagram</a></div>
+  <div class="gres" id="gres"></div>
+</div></div>
+
+<script>
+/* ============ KONFIGURASI (edit di sini) ============
+   FOTO: upload ke GitHub di folder  assets/portfolio/
+   Cukup tulis nama file-nya di bawah (tanpa folder).
+   Struktur folder di repository:
+     index.html
+     assets/
+       og-cover.jpg          (1200x630, untuk preview link WhatsApp/IG)
+       favicon-32.png        (32x32)
+       apple-touch-icon.png  (180x180)
+       portfolio/
+         hasil1.jpg ... hasil6.jpg   (rasio 9:19, misal 540x1140)
+======================================================= */
+const C={
+  brand:"DEY",
+  ig:"https://www.instagram.com/_dey_web",
+  demo:"https://komlaps2a-svg.github.io/memory-mbs23-/",
+  assets:"assets/",
+  portfolioDir:"portfolio/",
+  portfolio:[
+    {file:"hasil1.jpg",cap:"Ulang Tahun"},
+    {file:"hasil2.jpg",cap:"Hari Jadi"},
+    {file:"hasil3.jpg",cap:"Sempro / Sidang"},
+    {file:"hasil4.jpg",cap:"Interaktif"},
+    {file:"hasil5.jpg",cap:"Wisuda"},
+    {file:"hasil6.jpg",cap:"Custom"}
+  ],
+  tiers:[
+    {n:"Basic",tag:"Sederhana, tapi rapi",f:["1 halaman ucapan","Sampai 3 foto","Musik latar","Animasi dasar","1x revisi teks"],no:["Galeri & dinding foto","Game / interaksi","Preview link saat dibagikan"]},
+    {n:"Plus",tag:"Paling sering dipilih",pop:1,f:["Sampai 8 foto + galeri & dinding","Surat amplop efek mesin tik","Kartu gosok & kado kejutan","Musik latar","2x revisi"],no:["Game interaktif penuh"]},
+    {n:"Premium",tag:"Semua fitur + request",dark:1,f:["Semua fitur Plus","Game panah, kue tiup lilin, pohon bunga","Slide hitung waktu bersama","Preview link saat dibagikan + favicon","Foto dimuat dulu & animasi bisa diulang","Request desain atau fitur, selagi bisa","3x revisi + prioritas"],no:[]}
+  ],
+  kat:[
+    {nama:"Ulang Tahun",d:"Kue yang bisa ditiup, kartu yang digosok, dan surat yang baru terbuka di hari-H.",h:[35000,65000,120000]},
+    {nama:"Hari Jadi",d:"Hitung mundur hari bersama, album kenangan, dan surat yang biasanya cuma berani ditulis di catatan HP.",h:[40000,75000,130000]},
+    {nama:"Sempro / Sidang",d:"Penyemangat sebelum maju, atau ucapan selamat sesudahnya. Cocok dikirim ke teman seperjuangan.",h:[30000,60000,100000]},
+    {nama:"Wisuda",d:"Ucapan selamat dengan galeri perjalanan kuliah, untuk yang akhirnya lulus.",h:[35000,70000,120000]},
+    {nama:"Custom",d:"Lamaran, minta maaf, perpisahan, atau ide lain. Ceritakan dulu, nanti kita rancang bareng.",custom:150000}
+  ],
+  addon:[
+    {n:"Tambah foto",d:"+5 foto di luar kuota paket",p:10000},
+    {n:"Request lagu",d:"Sesuai lagu pilihanmu",p:5000},
+    {n:"Warna dan font khusus",d:"Disesuaikan dengan seleramu",p:15000},
+    {n:"Revisi tambahan",d:"Per sekali revisi",p:10000}
+  ]
+};
+/* ===================================================== */
+const $=id=>document.getElementById(id),rp=n=>'Rp'+n.toLocaleString('id-ID');
+const ic=n=>`<svg class="i"><use href="#i-${n}"/></svg>`;
+$('brand').textContent=$('brand2').textContent=C.brand;$('yr').textContent=new Date().getFullYear();
+$('demoBtn').href=C.demo;$('gskip').href=C.ig;
+let tt;function toast(m,i){const t=$('toast');t.innerHTML=ic(i||'check')+'<span></span>';t.lastChild.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),3200)}
+
+/* efek riak saat klik */
+document.addEventListener('pointerdown',e=>{
+  const b=e.target.closest('.btn,.tab,.ad');if(!b)return;
+  const r=b.getBoundingClientRect(),d=Math.max(r.width,r.height)*2.2,s=document.createElement('span');
+  s.className='rp';s.style.cssText=`width:${d}px;height:${d}px;left:${e.clientX-r.left-d/2}px;top:${e.clientY-r.top-d/2}px`;
+  b.appendChild(s);setTimeout(()=>s.remove(),700);
+});
+/* animasi muncul saat scroll */
+const io='IntersectionObserver' in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1,rootMargin:'0px 0px -30px 0px'}):null;
+function reveal(){
+  document.querySelectorAll('.sh,.pf,.tabs,.cdesc,.grid,.addons,.st,.q,.note,.center').forEach(el=>{
+    el.classList.add('rv');
+    if(el.matches('.st,.q'))el.style.transitionDelay=([...el.parentNode.children].indexOf(el)%4)*.07+'s';
+    io?io.observe(el):el.classList.add('in');
+  });
+  document.querySelectorAll('.cta').forEach(el=>io?io.observe(el):el.classList.add('in'));
+}
+addEventListener('scroll',()=>$('nav').classList.toggle('sc',scrollY>8),{passive:true});
+/* menu nav aktif sesuai bagian yang dilihat */
+if(io){
+  const ls=[...document.querySelectorAll('.links a')],so=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting)ls.forEach(a=>a.classList.toggle('act',a.getAttribute('href')==='#'+e.target.id));
+  }),{rootMargin:'-45% 0px -50% 0px'});
+  ['hasil','harga','addon','faq'].forEach(id=>so.observe($(id)));
+}
+/* FAQ halus */
+document.querySelectorAll('.qb').forEach(b=>b.onclick=()=>{const q=b.parentNode,o=q.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+
+/* state pilihan pelanggan */
+let cat=0;const sel={cat:null,tier:null,add:new Set()};
+const priceOf=()=>{if(sel.cat===null)return 0;const k=C.kat[sel.cat];let t=k.custom||k.h[sel.tier];sel.add.forEach(i=>t+=C.addon[i].p);return t};
+function orderText(){
+  const k=C.kat[sel.cat],isC=!!k.custom,tn=isC?'Custom':C.tiers[sel.tier].n,base=isC?k.custom:k.h[sel.tier];
+  const ad=[...sel.add].sort().map(i=>`- ${C.addon[i].n} (+${rp(C.addon[i].p)})`);
+  return `Halo kak, aku mau pesan web ucapan di ${C.brand}\n\nJenis: ${k.nama}\nPaket: ${tn} (${isC?'mulai dari ':''}${rp(base)})\nTambahan: ${ad.length?'\n'+ad.join('\n'):'-'}\nTotal: ${isC?'mulai dari ':''}${rp(priceOf())}\n\nNama pemesan:\nUntuk (nama penerima):\nTanggal acara:\nCatatan / request:`;
+}
+function copy(text){
+  try{const a=document.createElement('textarea');a.value=text;a.style.cssText='position:fixed;opacity:0;top:0';document.body.appendChild(a);a.select();a.setSelectionRange(0,99999);document.execCommand('copy');a.remove()}catch(e){}
+  if(navigator.clipboard)navigator.clipboard.writeText(text).catch(()=>{});
+}
+function bar(){
+  const b=$('ob');
+  if(sel.cat===null){b.classList.remove('show');return}
+  const k=C.kat[sel.cat],tn=k.custom?'Custom':C.tiers[sel.tier].n;
+  $('obs').textContent=`${k.nama} · ${tn}${sel.add.size?' · +'+sel.add.size+' tambahan':''}`;
+  $('obt').textContent=(k.custom?'Mulai ':'')+rp(priceOf());b.classList.add('show');
+}
+
+/* ===== Game memanah logo Instagram (target diam) ===== */
+const Game=(()=>{
+  const W=380,H=520,B={x:W/2,y:H-62};
+  const box=$('game'),cv=$('gc'),cx=cv.getContext('2d'),res=$('gres');
+  const stars=Array.from({length:46},()=>({x:Math.random()*W,y:Math.random()*H*.8,r:Math.random()*1.2+.3,a:Math.random()*.6+.2,p:Math.random()*6}));
+  const tgt={x:W/2,y:120,s:64},miss=['Hampir kena','Geser sedikit lagi','Sedikit lagi','Coba bidik ulang'];
+  let raf=0,last=0,tm=0,st='idle',aim=0,aiming=false,pull=0,fly=null,stuck=null,parts=[],rings=[],shots=0,hitT=0,shake=0,flash=0,msg='',msgT=0,copied=false,t1=0,t2=0;
+  function fit(){const d=Math.min(window.devicePixelRatio||1,2);cv.width=W*d;cv.height=H*d;cx.setTransform(d,0,0,d,0,0)}
+  function rr(x,y,w,h,r){cx.beginPath();cx.moveTo(x+r,y);cx.arcTo(x+w,y,x+w,y+h,r);cx.arcTo(x+w,y+h,x,y+h,r);cx.arcTo(x,y+h,x,y,r);cx.arcTo(x,y,x+w,y,r);cx.closePath()}
+  function arrow(x,y,a,len){
+    cx.save();cx.translate(x,y);cx.rotate(a);cx.lineCap='round';
+    cx.strokeStyle='#E6C463';cx.lineWidth=2.4;cx.beginPath();cx.moveTo(0,0);cx.lineTo(0,len);cx.stroke();
+    cx.fillStyle='#F6E3A1';cx.beginPath();cx.moveTo(0,-7);cx.lineTo(-4.5,5);cx.lineTo(4.5,5);cx.closePath();cx.fill();
+    cx.strokeStyle='#C9A64B';cx.lineWidth=2;
+    for(const d of[0,7]){cx.beginPath();cx.moveTo(0,len-d);cx.lineTo(-4,len-d+6);cx.moveTo(0,len-d);cx.lineTo(4,len-d+6);cx.stroke()}
+    cx.restore();
+  }
+  function target(){
+    const t=tgt,x=t.x-t.s/2,y=t.y-t.s/2;
+    const k=st==='won'?1+.2*Math.exp(-hitT*7)*Math.cos(hitT*28):1+.025*Math.sin(tm*2.5);
+    const rot=st==='won'?.22*Math.exp(-hitT*6)*Math.sin(hitT*30):0;
+    cx.save();cx.strokeStyle=`rgba(246,227,161,${.18+.12*Math.sin(tm*3)})`;cx.lineWidth=1.5;cx.beginPath();cx.arc(t.x,t.y,t.s*.78+3*Math.sin(tm*3),0,7);cx.stroke();cx.restore();
+    cx.save();cx.translate(t.x,t.y);cx.rotate(rot);cx.scale(k,k);cx.translate(-t.x,-t.y);
+    cx.shadowColor='rgba(220,39,67,.55)';cx.shadowBlur=22+6*Math.sin(tm*3);
+    const g=cx.createLinearGradient(x,y+t.s,x+t.s,y);
+    [[0,'#FEDA75'],[.3,'#FA7E1E'],[.55,'#D62976'],[.8,'#962FBF'],[1,'#4F5BD5']].forEach(s=>g.addColorStop(s[0],s[1]));
+    cx.fillStyle=g;rr(x,y,t.s,t.s,16);cx.fill();cx.shadowBlur=0;
+    cx.strokeStyle='#fff';cx.lineWidth=3.6;rr(x+13,y+13,t.s-26,t.s-26,11);cx.stroke();
+    cx.beginPath();cx.arc(t.x,t.y,9,0,7);cx.stroke();
+    cx.fillStyle='#fff';cx.beginPath();cx.arc(x+t.s-20,y+20,2.5,0,7);cx.fill();
+    if(stuck)arrow(t.x+stuck.dx,t.y+stuck.dy,stuck.a,46);
+    cx.restore();
+  }
+  function bow(){
+    cx.save();cx.translate(B.x,B.y);cx.rotate(aim);
+    const ex=Math.cos(Math.PI*.82)*38,ey=10-Math.sin(Math.PI*.82)*38,ny=ey+pull*14;
+    cx.lineCap='round';cx.strokeStyle='#C9A64B';cx.lineWidth=5;cx.beginPath();cx.arc(0,10,38,-Math.PI*.82,-Math.PI*.18);cx.stroke();
+    cx.strokeStyle='rgba(244,238,219,.85)';cx.lineWidth=1.4;cx.beginPath();cx.moveTo(ex,ey);cx.lineTo(0,ny);cx.lineTo(-ex,ey);cx.stroke();
+    if(!fly&&st==='play')arrow(0,ny-78,0,78);
+    if(aiming&&!fly){cx.setLineDash([2,9]);cx.strokeStyle='rgba(246,227,161,.45)';cx.beginPath();cx.moveTo(0,ny-90);cx.lineTo(0,-300);cx.stroke()}
+    cx.restore();
+  }
+  function burst(x,y){const c=['#F6E3A1','#D9B44A','#FA7E1E','#D62976','#962FBF'];for(let i=0;i<46;i++){const a=Math.random()*6.28,s=60+Math.random()*240;parts.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s-60,l:1,c:c[i%5]})}}
+  function fire(){
+    if(st!=='play'||fly)return;shots++;$('ghint').textContent='Panah: '+shots;pull=-.6;
+    fly={x:B.x+Math.sin(aim)*78,y:B.y-10-Math.cos(aim)*78,a:aim,tr:[]};
+  }
+  function showRes(){
+    res.innerHTML=`<h3>Tepat sasaran.</h3><p>${copied?'Teks pesananmu sudah tersalin, tinggal tempel di DM. ':''}Instagram terbuka sebentar lagi. Kalau belum, tekan tombol ini.</p><a class="btn glow" href="${C.ig}" target="_blank" rel="noopener">Buka Instagram</a><button class="btn hl" data-a="again">Main lagi</button>`;
+    res.classList.add('show');
+  }
+  function update(dt){
+    tm+=dt;pull+=((aiming&&!fly?1:0)-pull)*Math.min(dt*14,1);
+    if(st==='won')hitT+=dt;
+    if(fly&&st==='play'){
+      fly.tr.push({x:fly.x,y:fly.y});if(fly.tr.length>9)fly.tr.shift();
+      const sp=760*dt;fly.x+=Math.sin(fly.a)*sp;fly.y-=Math.cos(fly.a)*sp;
+      if(Math.abs(fly.x-tgt.x)<tgt.s/2+3&&Math.abs(fly.y-tgt.y)<tgt.s/2+3){
+        stuck={dx:fly.x-tgt.x,dy:fly.y-tgt.y,a:fly.a};fly=null;st='won';hitT=0;shake=11;flash=1;
+        burst(tgt.x,tgt.y);rings.push({r:24,l:1},{r:10,l:1.2});
+        t1=setTimeout(showRes,950);t2=setTimeout(()=>{try{window.open(C.ig,'_blank','noopener')}catch(e){}},1150);
+      }else if(fly.y<-30||fly.x<-30||fly.x>W+30){fly=null;msg=miss[shots%miss.length];msgT=1.4}
+    }
+    parts.forEach(p=>{p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=380*dt;p.l-=dt*1.1});parts=parts.filter(p=>p.l>0);
+    rings.forEach(r=>{r.r+=dt*230;r.l-=dt*1.5});rings=rings.filter(r=>r.l>0);
+    shake*=.88;flash=Math.max(0,flash-dt*3.2);msgT=Math.max(0,msgT-dt);
+  }
+  function draw(){
+    const g=cx.createLinearGradient(0,0,0,H);g.addColorStop(0,'#1D1538');g.addColorStop(1,'#0B0A0F');
+    cx.fillStyle=g;cx.fillRect(0,0,W,H);
+    cx.save();cx.translate((Math.random()-.5)*shake,(Math.random()-.5)*shake);
+    stars.forEach(s=>{cx.fillStyle=`rgba(246,227,161,${s.a*(.6+.4*Math.sin(tm*2+s.p))})`;cx.beginPath();cx.arc(s.x,s.y,s.r,0,7);cx.fill()});
+    target();
+    rings.forEach(r=>{cx.strokeStyle=`rgba(246,227,161,${Math.max(r.l,0)*.7})`;cx.lineWidth=3*r.l;cx.beginPath();cx.arc(tgt.x,tgt.y,r.r,0,7);cx.stroke()});
+    parts.forEach(p=>{cx.globalAlpha=Math.max(p.l,0);cx.fillStyle=p.c;cx.fillRect(p.x,p.y,4,4)});cx.globalAlpha=1;
+    if(fly){
+      fly.tr.forEach((p,i)=>{cx.fillStyle=`rgba(246,227,161,${i/fly.tr.length*.35})`;cx.beginPath();cx.arc(p.x,p.y,2+i*.25,0,7);cx.fill()});
+      arrow(fly.x,fly.y,fly.a,78);
+    }
+    bow();cx.restore();
+    if(flash>0){cx.fillStyle=`rgba(255,255,255,${flash*.28})`;cx.fillRect(0,0,W,H)}
+    cx.textAlign='center';cx.font="600 13px 'Plus Jakarta Sans',sans-serif";
+    if(st==='play'&&shots===0){cx.fillStyle='rgba(244,238,219,.65)';cx.fillText('Tahan, geser untuk membidik, lepas untuk memanah',W/2,H-14)}
+    else if(msgT>0&&st==='play'){cx.fillStyle=`rgba(246,227,161,${Math.min(msgT,1)})`;cx.fillText(msg,W/2,H-14)}
+  }
+  function loop(ts){raf=requestAnimationFrame(loop);const dt=Math.min((ts-last)/1000||0,.05);last=ts;update(dt);draw()}
+  function reset(){clearTimeout(t1);clearTimeout(t2);st='play';aim=0;aiming=false;pull=0;fly=null;stuck=null;parts=[];rings=[];shots=0;shake=0;flash=0;msgT=0;tgt.x=110+Math.random()*160;res.classList.remove('show');$('ghint').textContent='Panah: 0'}
+  function open(fromOrder){
+    copied=!!fromOrder;
+    $('gsub').textContent=copied?'Teks pesananmu sudah tersalin. Kena sasaran, Instagram terbuka, tinggal tempel di DM.':'Bidik logo Instagram. Kena sasaran, Instagram langsung terbuka.';
+    reset();box.classList.add('show');box.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';fit();cancelAnimationFrame(raf);last=performance.now();raf=requestAnimationFrame(loop);
+  }
+  function close(){box.classList.remove('show');box.setAttribute('aria-hidden','true');document.body.style.overflow='';clearTimeout(t1);clearTimeout(t2);setTimeout(()=>{if(!box.classList.contains('show'))cancelAnimationFrame(raf)},500)}
+  const pt=e=>{const r=cv.getBoundingClientRect();return{x:(e.clientX-r.left)*W/r.width,y:(e.clientY-r.top)*H/r.height}};
+  const setAim=e=>{const p=pt(e);aim=Math.max(-1.05,Math.min(1.05,Math.atan2(p.x-B.x,B.y-p.y)))};
+  cv.addEventListener('pointerdown',e=>{if(st!=='play')return;aiming=true;cv.setPointerCapture(e.pointerId);setAim(e)});
+  cv.addEventListener('pointermove',e=>{if(aiming||e.pointerType==='mouse')setAim(e)});
+  cv.addEventListener('pointerup',()=>{if(!aiming)return;aiming=false;fire()});
+  cv.addEventListener('pointercancel',()=>{aiming=false});
+  res.addEventListener('click',e=>{if(e.target.closest('[data-a="again"]'))reset()});
+  $('gclose').onclick=close;box.addEventListener('click',e=>{if(e.target===box)close()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&box.classList.contains('show'))close()});
+  return{open};
+})();
+document.querySelectorAll('.ig-open').forEach(a=>{a.href=C.ig;a.addEventListener('click',e=>{e.preventDefault();Game.open(false)})});
+$('cpy').onclick=()=>{if(sel.cat===null)return;copy(orderText());toast('Teks pesanan disalin','copy')};
+$('ord').onclick=()=>{if(sel.cat===null)return;copy(orderText());Game.open(true)};
+
+/* tab + kartu paket */
+function tabs(){
+  C.kat.forEach((k,i)=>{const b=document.createElement('button');b.className='tab'+(i===cat?' on':'');b.textContent=k.nama;
+    b.setAttribute('role','tab');b.setAttribute('aria-selected',i===cat);
+    b.onclick=()=>{if(cat===i)return;cat=i;[...$('tabs').children].forEach((x,j)=>{x.classList.toggle('on',j===i);x.setAttribute('aria-selected',j===i)});cards(true);b.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'})};
+    $('tabs').appendChild(b)});
+}
+function pick(c,t){
+  if(sel.cat===c&&sel.tier===t){sel.cat=null;sel.tier=null}else{sel.cat=c;sel.tier=t}
+  sync();bar();
+}
+function sync(){
+  $('grid').querySelectorAll('.card').forEach(c=>{
+    const i=+c.dataset.i,on=sel.cat===cat&&sel.tier===i;
+    c.classList.toggle('on',on);c.querySelector('.bl').innerHTML=on?ic('check')+'Dipilih':c.dataset.l;
+    c.querySelector('button').setAttribute('aria-pressed',on);
+  });
+}
+function cards(anim){
+  const k=C.kat[cat],g=$('grid'),cd=$('cdesc');
+  cd.textContent=k.d;cd.classList.remove('fx');void cd.offsetWidth;if(anim)cd.classList.add('fx');
+  g.innerHTML='';
+  if(k.custom){
+    g.innerHTML=`<div class="card" data-i="0" data-l="Pilih Custom" style="grid-column:1/-1;align-items:flex-start"><h3>Request khusus</h3><p class="tag" style="margin-top:4px">Harga menyesuaikan tingkat kerumitan.</p><div class="price">Mulai ${rp(k.custom)}</div><button class="btn wide" style="margin:18px 0 0;max-width:320px"><span class="bl"></span></button></div>`;
+    g.querySelector('button').onclick=()=>pick(cat,0);
+  }else C.tiers.forEach((t,i)=>{
+    const c=document.createElement('div');c.className='card'+(t.dark?' dark':'');c.dataset.i=i;c.dataset.l='Pilih '+t.n;
+    const badge=t.pop?'<div class="badge">PALING SERING</div>':t.dark?`<div class="badge">${ic('crown')}PREMIUM</div>`:'';
+    c.innerHTML=badge+`<h3>${t.n}</h3><div class="tag">${t.tag}</div><div class="price">${rp(k.h[i])}<small>sekali bayar</small></div><ul>${t.f.map(x=>`<li>${x}</li>`).join('')}${t.no.map(x=>`<li class="no">${x}</li>`).join('')}</ul><button class="btn${t.dark?' glow':''}"><span class="bl"></span></button>`;
+    c.querySelector('button').onclick=()=>pick(cat,i);
+    g.appendChild(c);
+  });
+  g.querySelectorAll('.card').forEach((c,i)=>{c.style.animation=anim?`up .55s ${i*.08}s var(--ez) backwards`:''});
+  sync();
+}
+function addons(){
+  C.addon.forEach((a,i)=>{
+    const b=document.createElement('button');b.className='ad';b.setAttribute('aria-pressed','false');
+    b.innerHTML=`<i class="ck">${ic('check')}</i><span>${a.n}<small>${a.d}</small></span><b>+${rp(a.p)}</b>`;
+    b.onclick=()=>{const on=!sel.add.has(i);on?sel.add.add(i):sel.add.delete(i);b.classList.toggle('on',on);b.setAttribute('aria-pressed',on);bar();if(sel.cat===null)toast('Pilih paket dulu di bagian Harga','info')};
+    $('addons').appendChild(b);
+  });
+}
+
+/* ===== Contoh hasil: foto dipanggil dari assets/portfolio/ di GitHub ===== */
+const photoURL=p=>C.assets+C.portfolioDir+p.file;
+const shown=[]; /* daftar foto yang berhasil dimuat, urut tampil */
+function lightbox(start){
+  let i=start;
+  const o=document.createElement('div');o.id='lb';o.setAttribute('role','dialog');o.setAttribute('aria-label','Pratinjau contoh hasil');
+  o.innerHTML=`<figure><img alt=""><figcaption></figcaption></figure><button class="nv cl" aria-label="Tutup">${ic('x')}</button><button class="nv pv" aria-label="Sebelumnya">${ic('next')}</button><button class="nv nx" aria-label="Berikutnya">${ic('next')}</button>`;
+  const im=o.querySelector('img'),cp=o.querySelector('figcaption');
+  function show(n){
+    i=(n+shown.length)%shown.length;const p=shown[i];
+    im.style.animation='none';void im.offsetWidth;im.style.animation='';
+    im.src=photoURL(p);im.alt='Contoh hasil: '+(p.cap||'');cp.textContent=(p.cap||'')+' · '+(i+1)+'/'+shown.length;
+  }
+  const close=()=>{o.remove();document.removeEventListener('keydown',key)};
+  const key=e=>{if(e.key==='Escape')close();else if(e.key==='ArrowLeft')show(i-1);else if(e.key==='ArrowRight')show(i+1)};
+  o.querySelector('.cl').onclick=close;o.querySelector('.pv').onclick=e=>{e.stopPropagation();show(i-1)};o.querySelector('.nx').onclick=e=>{e.stopPropagation();show(i+1)};
+  o.addEventListener('click',e=>{if(e.target===o||e.target.tagName==='FIGURE')close()});
+  /* geser jari kiri/kanan */
+  let sx=0;o.addEventListener('touchstart',e=>{sx=e.touches[0].clientX},{passive:true});
+  o.addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>50)show(i+(d<0?1:-1))},{passive:true});
+  document.addEventListener('keydown',key);document.body.appendChild(o);show(i);
+}
+function portfolio(){
+  const box=$('pf');let fin=0;const total=C.portfolio.length,order=new Map();
+  const end=()=>{if(++fin===total&&!shown.length)box.outerHTML='<div class="empty">Contoh hasil segera hadir. Upload screenshot ke <b>assets/portfolio/</b> di GitHub.</div>'};
+  const figs=[];
+  C.portfolio.forEach((p,i)=>{
+    const f=document.createElement('figure');f.setAttribute('role','listitem');f.tabIndex=0;
+    f.innerHTML='<div class="fr"></div><figcaption></figcaption>';
+    f.querySelector('figcaption').textContent=p.cap||'';
+    const im=new Image();im.loading='lazy';im.decoding='async';im.width=540;im.height=1140;im.alt=p.cap?'Contoh web ucapan '+p.cap:'Contoh hasil';
+    f.firstChild.appendChild(im);figs[i]=f;
+    im.onload=()=>{
+      f.firstChild.classList.add('ok');
+      /* masukkan sesuai urutan di konfigurasi, bukan urutan selesai unduh */
+      let at=0;while(at<shown.length&&shown[at].idx<i)at++;
+      shown.splice(at,0,{...p,idx:i});
+      const next=[...box.children][at];box.insertBefore(f,next||null);
+      f.style.animationDelay=at*.08+'s';end();
+    };
+    im.onerror=end;
+    const open=()=>lightbox(shown.findIndex(s=>s.idx===i));
+    f.onclick=open;f.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}};
+    im.src=photoURL(p);
+  });
+}
+tabs();cards(false);addons();portfolio();reveal();
+</script>
+</body>
+</html>
