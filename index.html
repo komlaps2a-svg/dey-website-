@@ -6,14 +6,14 @@
 <title>DEY · Web Ucapan Interaktif untuk Ulang Tahun, Hari Jadi, Sidang & Wisuda</title>
 
 <!-- ===== META DASAR / SEO ===== -->
-<!-- GANTI https://komlaps2a-svg.github.io/dey-website-/ dengan alamat GitHub Pages kamu (di 6 tempat: canonical, og:url, og:image, twitter:image, JSON-LD) -->
+<!-- Alamat web: https://komlaps2a-svg.github.io/dey-website-/ (dipakai di canonical, og:url, og:image, twitter:image, JSON-LD) -->
 <meta name="description" content="DEY membuat web ucapan interaktif untuk ulang tahun, hari jadi, sempro, sidang, dan wisuda. Ada kue tiup lilin, kartu gosok, surat amplop, dan musik. Mulai Rp30rb, satu link tinggal kirim.">
 <meta name="keywords" content="web ucapan, web ulang tahun, kado digital, web hari jadi, ucapan wisuda, ucapan sidang, jasa web ucapan, kejutan ulang tahun, DEY">
 <meta name="author" content="DEY">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="googlebot" content="index,follow">
 <meta name="format-detection" content="telephone=no">
-<link rel="canonical" href="https://USERNAME.github.io/REPO/">
+<link rel="canonical" href="https://komlaps2a-svg.github.io/dey-website-/">
 
 <!-- ===== TAMPILAN PERANGKAT ===== -->
 <meta name="theme-color" content="#FAF8FF" media="(prefers-color-scheme: light)">
@@ -28,11 +28,11 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="DEY">
 <meta property="og:locale" content="id_ID">
-<meta property="og:url" content="https://USERNAME.github.io/REPO/">
+<meta property="og:url" content="https://komlaps2a-svg.github.io/dey-website-/">
 <meta property="og:title" content="DEY · Web Ucapan Interaktif">
 <meta property="og:description" content="Ucapan yang bisa dibuka, digosok, dan ditiup. Ulang tahun, hari jadi, sempro, sidang, wisuda. Satu link, tinggal kirim.">
-<meta property="og:image" content="https://USERNAME.github.io/REPO/assets/og-cover.jpg">
-<meta property="og:image:secure_url" content="https://USERNAME.github.io/REPO/assets/og-cover.jpg">
+<meta property="og:image" content="https://komlaps2a-svg.github.io/dey-website-/assets/og-cover.jpg">
+<meta property="og:image:secure_url" content="https://komlaps2a-svg.github.io/dey-website-/assets/og-cover.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DEY · Web Ucapan Interaktif">
 <meta name="twitter:description" content="Ucapan yang bisa dibuka, digosok, dan ditiup. Mulai Rp30rb, satu link tinggal kirim.">
-<meta name="twitter:image" content="https://USERNAME.github.io/REPO/assets/og-cover.jpg">
+<meta name="twitter:image" content="https://komlaps2a-svg.github.io/dey-website-/assets/og-cover.jpg">
 <meta name="twitter:image:alt" content="Contoh web ucapan interaktif buatan DEY">
 
 <!-- ===== IKON (upload ke folder assets/ di GitHub) ===== -->
@@ -57,8 +57,8 @@
   "@type":"ProfessionalService",
   "name":"DEY · Web Ucapan Interaktif",
   "description":"Jasa pembuatan web ucapan interaktif untuk ulang tahun, hari jadi, sempro, sidang, dan wisuda.",
-  "url":"https://USERNAME.github.io/REPO/",
-  "image":"https://USERNAME.github.io/REPO/assets/og-cover.jpg",
+  "url":"https://komlaps2a-svg.github.io/dey-website-/",
+  "image":"https://komlaps2a-svg.github.io/dey-website-/assets/og-cover.jpg",
   "sameAs":["https://www.instagram.com/_dey_web"],
   "areaServed":"ID",
   "priceRange":"Rp30.000 - Rp150.000",
@@ -341,7 +341,7 @@ footer a{color:var(--ink);font-weight:600}
 
 <script>
 /* ============ KONFIGURASI (edit di sini) ============
-   FOTO: upload ke GitHub di folder  assets/portfolio/
+   FOTO: upload ke GitHub di folder  portofolio/ (sejajar index.html)
    Cukup tulis nama file-nya di bawah (tanpa folder).
    Struktur folder di repository:
      index.html
@@ -349,15 +349,15 @@ footer a{color:var(--ink);font-weight:600}
        og-cover.jpg          (1200x630, untuk preview link WhatsApp/IG)
        favicon-32.png        (32x32)
        apple-touch-icon.png  (180x180)
-       portfolio/
-         hasil1.jpg ... hasil6.jpg   (rasio 9:19, misal 540x1140)
+     portofolio/
+       hasil1.jpg ... hasil8.jpg   (rasio 9:19, misal 540x1140)
 ======================================================= */
 const C={
   brand:"DEY",
   ig:"https://www.instagram.com/_dey_web",
   demo:"https://komlaps2a-svg.github.io/memory-mbs23-/",
   assets:"assets/",
-  portfolioDir:"portfolio/",
+  portfolioDir:"portofolio/",
   portfolio:[
     {file:"hasil1.jpg",cap:"Galery"},
     {file:"hasil2.jpg",cap:"Custom"},
@@ -594,8 +594,8 @@ function addons(){
   });
 }
 
-/* ===== Contoh hasil: foto dipanggil dari assets/portfolio/ di GitHub ===== */
-const photoURL=p=>C.assets+C.portfolioDir+p.file;
+/* ===== Contoh hasil: foto dipanggil dari folder portofolio/ di GitHub ===== */
+const photoURL=p=>C.portfolioDir+p.file;
 const shown=[]; /* daftar foto yang berhasil dimuat, urut tampil */
 function lightbox(start){
   let i=start;
@@ -618,7 +618,7 @@ function lightbox(start){
 }
 function portfolio(){
   const box=$('pf');let fin=0;const total=C.portfolio.length,order=new Map();
-  const end=()=>{if(++fin===total&&!shown.length)box.outerHTML='<div class="empty">Contoh hasil segera hadir. Upload screenshot ke <b>assets/portfolio/</b> di GitHub.</div>'};
+  const end=()=>{if(++fin===total&&!shown.length)box.outerHTML='<div class="empty">Contoh hasil segera hadir. Upload screenshot ke <b>portofolio/</b> di GitHub.</div>'};
   const figs=[];
   C.portfolio.forEach((p,i)=>{
     const f=document.createElement('figure');f.setAttribute('role','listitem');f.tabIndex=0;
