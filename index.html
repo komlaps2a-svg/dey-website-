@@ -617,25 +617,23 @@ function lightbox(start){
   document.addEventListener('keydown',key);document.body.appendChild(o);show(i);
 }
 function portfolio(){
-  const box=$('pf');let fin=0;const total=C.portfolio.length,order=new Map();
+  const box=$('pf');let fin=0;const total=C.portfolio.length;
   const end=()=>{if(++fin===total&&!shown.length)box.outerHTML='<div class="empty">Contoh hasil segera hadir. Upload screenshot ke <b>portofolio/</b> di GitHub.</div>'};
-  const figs=[];
   C.portfolio.forEach((p,i)=>{
     const f=document.createElement('figure');f.setAttribute('role','listitem');f.tabIndex=0;
     f.innerHTML='<div class="fr"></div><figcaption></figcaption>';
     f.querySelector('figcaption').textContent=p.cap||'';
-    const im=new Image();im.loading='lazy';im.decoding='async';im.width=540;im.height=1140;im.alt=p.cap?'Contoh web ucapan '+p.cap:'Contoh hasil';
-    f.firstChild.appendChild(im);figs[i]=f;
+    f.style.animationDelay=i*.08+'s';
+    const im=new Image();im.decoding='async';im.width=540;im.height=1140;im.alt=p.cap?'Contoh web ucapan '+p.cap:'Contoh hasil';
+    f.firstChild.appendChild(im);
+    box.appendChild(f); /* langsung dipasang di halaman, urutan tetap sesuai konfigurasi */
     im.onload=()=>{
       f.firstChild.classList.add('ok');
-      /* masukkan sesuai urutan di konfigurasi, bukan urutan selesai unduh */
       let at=0;while(at<shown.length&&shown[at].idx<i)at++;
-      shown.splice(at,0,{...p,idx:i});
-      const next=[...box.children][at];box.insertBefore(f,next||null);
-      f.style.animationDelay=at*.08+'s';end();
+      shown.splice(at,0,{...p,idx:i});end();
     };
-    im.onerror=end;
-    const open=()=>lightbox(shown.findIndex(s=>s.idx===i));
+    im.onerror=()=>{f.remove();end()}; /* foto yang tidak ada dilewati */
+    const open=()=>{const n=shown.findIndex(s=>s.idx===i);if(n>-1)lightbox(n)};
     f.onclick=open;f.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}};
     im.src=photoURL(p);
   });
